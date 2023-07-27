@@ -1,0 +1,284 @@
+/* styles.css */
+
+/* Establece una altura del 100% para html y body */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Establece estilos para el elemento con className "inicio" */
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(197, 221, 155);
+  /*background-image: url('../assets/espe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  /* Agrega más estilos aquí si es necesario */
+}
+
+/* Estilos para el h1 */
+.inicio h1 {
+  color: green;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/* Estilos para el segundo párrafo */
+.inicio p:nth-of-type(2) {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Estilos para el segundo párrafo con hover */
+.inicio p:nth-of-type(2):hover {
+  background-color: #e0e0e0;
+}
+
+/* Estilos para el botón en la esquina superior izquierda */
+.inicio p:nth-of-type(3) {
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Estilos para el botón en la esquina superior izquierda con hover */
+.inicio p:nth-of-type(3):hover {
+  background-color: #e0e0e0;
+}
+
+/* styles.css */
+
+/* Estilos para el contenedor centrado */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(197, 221, 155);
+}
+
+/* Estilos para el formulario */
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Estilos para los elementos del formulario */
+.login-form h1 {
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  display: block;
+  text-align: left;
+}
+
+.login-form input {
+  display: block;
+  width: 94%;
+  margin: 10px 0;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.login-form p {
+  cursor: pointer;
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.captcha-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* styles.css */
+
+/* Estilos para el contenedor centrado */
+.form-container { /* Cambio del nombre de la clase */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(197, 221, 155);
+}
+
+/* Estilos para el formulario */
+.form-box { /* Cambio del nombre de la clase */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Estilos para los elementos del formulario */
+.form-box h1 { /* Cambio del nombre de la clase */
+  margin-bottom: 10px;
+}
+
+.form-box label { /* Cambio del nombre de la clase */
+  display: block;
+  text-align: left;
+}
+
+.form-box input,
+.form-box select { /* Cambio del nombre de la clase */
+  display: block;
+  width: 94%;
+  margin: 10px 0;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-box select { /* Cambio del nombre de la clase */
+  background-color: #fff;
+}
+
+.form-box .radio-group { /* Cambio del nombre de la clase */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.form-box button { /* Cambio del nombre de la clase */
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.form-box p { /* Cambio del nombre de la clase */
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+/* Plataforma.css */
+
+.plataforma-container {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.logo img{
+  max-width: 100px;
+}
+
+.imagen-usuario {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+  float: left; /* Alinea la imagen a la izquierda */
+  margin-right: 20px; /* Ajusta el espacio entre la imagen y el texto */
+}
+
+.nombre-completo {
+  position: absolute;
+  top: 50px; /* Ajusta la distancia desde la parte superior */
+  right: 25px; /* Ajusta la distancia desde la parte derecha */
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.seccion-informacion {
+  display: flex; /* Utilizamos flexbox para los botones en vertical */
+  flex-direction: column; /* Los botones estarán uno encima del otro */
+  width: 35%;
+  margin-left: auto; /* Desplazamos el contenedor a la derecha */
+  padding-right: 120px;
+  padding-top: 50px;
+}
+
+/* Estilos para los botones */
+.seccion-informacion button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  margin-bottom: 10px; /* Ajustamos el espacio entre los botones */
+  cursor: pointer;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.seccion-completado {
+  display: flex;
+  justify-content: space-between;
+}
+
+.estados {
+  display: flex; /* Utilizamos flexbox */
+  justify-content: space-between; /* Colocamos los elementos separados */
+  gap: 10px; /* Espacio entre los botones */
+  width: 100px; /* Ancho del contenedor de estados */
+  margin-top: 200px; /* Ajustamos el espacio entre la imagen y la sección de estados */
+}
+
+/* Estilos para los estados */
+.estados p {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  margin: 0; /* Quitamos el margen para ajustarlos al contenedor */
+  text-align: center; /* Centramos el texto en los estados */
+  pointer-events: none; /* Evitamos que los estados sean interactivos */
+}
+

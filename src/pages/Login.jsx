@@ -3,7 +3,6 @@ import './styles.css'; // Importa el archivo de estilos
 import Popup from '../components/Popup.jsx';
 
 const Login = () => {
-
   const [showPopup, setShowPopup] = useState(false);
 
   const handleLogin = () => {
@@ -23,16 +22,18 @@ const Login = () => {
         <input type="text" />
         <label>Contraseña</label>
         <input type="password" />
-        <button type="submit"
-          onClick={handleLogin}
-          >LOGIN
+        <button type="submit" onClick={handleLogin}>
+          LOGIN
         </button>
-
         <p onClick={() => window.location.href = '/registro'}>Ir a Registro</p>
       </div>
-      {showPopup && <Popup 
-      mensaje="Tu información será manipulada conforme a la necesidad de la institución sin lugar a reclamos, conforme a la ley de protección de datos, etc."
-      onClose={handleClosePopup} />}
+      {showPopup && (
+        <Popup
+          mensaje="Tu información será manipulada conforme a la necesidad de la institución sin lugar a reclamos, conforme a la ley de protección de datos, etc."
+          ruta="/plataforma" // Aquí pasa la ruta que desees redireccionar desde el componente Login
+          onClose={handleClosePopup}
+        />
+      )}
     </div>
   );
 };

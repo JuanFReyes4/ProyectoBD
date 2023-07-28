@@ -7,7 +7,7 @@ const Plataforma = () => {
   return (
     <div className="plataforma-container">
     <div className="nombre-completo">
-        JUAN FRANCISCO REYES SALAZAR
+        POSTULANTE
       </div>
       <div className="logo">
         <img src={logo} alt="Logo" />
@@ -19,8 +19,8 @@ const Plataforma = () => {
 
       <div className="seccion-informacion">
         <h1>LLENAR LA SIGUIENTE INFORMACIÓN</h1>
-        <button onClick={() => window.location.href = '/postulante'}>INFORMACIÓN DEL POSTULANTE</button>
-        <button onClick={() => window.location.href = '/proceso'}>SELECCIONAR POSTULACIÓN</button>
+        <button>INFORMACIÓN DEL POSTULANTE</button>
+        <button>SELECCIONAR POSTULACIÓN</button>
         <button onClick={() => window.location.href = '/'}>CERRAR SESIÓN</button>
       </div>
 

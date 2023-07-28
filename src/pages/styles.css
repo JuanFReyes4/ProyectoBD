@@ -167,9 +167,9 @@ html, body {
 }
 
 /* Estilos para el formulario */
-.form-box {
+.form-box { /* Cambio del nombre de la clase */
   background-color: #fff;
-  padding: 30px; /* Ajustamos el padding */
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -178,38 +178,37 @@ html, body {
 }
 
 /* Estilos para los elementos del formulario */
-.form-box h1 {
-  margin-bottom: 5px; /* Ajustamos el margen inferior */
+.form-box h1 { /* Cambio del nombre de la clase */
+  margin-bottom: 10px;
 }
 
-.form-box label {
+.form-box label { /* Cambio del nombre de la clase */
   display: block;
   text-align: left;
-  margin-bottom: 5px; /* Ajustamos el margen inferior */
 }
 
 .form-box input,
-.form-box select {
+.form-box select { /* Cambio del nombre de la clase */
   display: block;
-  width: 90%; /* Ajustamos el ancho */
-  margin: 5px 0; /* Ajustamos el margen */
+  width: 94%;
+  margin: 10px 0;
   padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-.form-box select {
+.form-box select { /* Cambio del nombre de la clase */
   background-color: #fff;
 }
 
-.form-box .radio-group {
+.form-box .radio-group { /* Cambio del nombre de la clase */
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 5px 0;
 }
 
-.form-box button {
+.form-box button { /* Cambio del nombre de la clase */
   cursor: pointer;
   font-size: 18px;
   color: #fdfdfd;
@@ -217,20 +216,18 @@ html, body {
   border: none;
   border-radius: 4px;
   padding: 10px 16px;
-  margin-top: 10px; /* Ajustamos el margen superior */
+  margin-top: 20px;
 }
 
-/* Estilo para el efecto de hover del botón */
 .form-box button:hover {
   transition: 99ms;
   background-color: #28a745; /* Color verde más oscuro en hover */
 }
 
-.form-box p {
-  margin-top: 5px; /* Ajustamos el margen superior */
+.form-box p { /* Cambio del nombre de la clase */
+  margin-top: 10px;
   font-size: 12px;
 }
-
 
 /* Plataforma.css */
 

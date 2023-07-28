@@ -4,9 +4,11 @@ import './styles.css';
 const Inicio = () => {
   return (
     <div className='inicio'>
-      <h1>TRABAJA CON NOSOTROS</h1>
-      <p>CONCURSO DE MÉRITOS Y OPOSICIÓN 2023</p>
-      <p onClick={() => window.location.href = '/login'}>Iniciar</p>
+      <div className='recuadro-blanco'>
+        <h1>TRABAJA CON NOSOTROS</h1>
+        <h2>CONCURSO DE MÉRITOS Y OPOSICIÓN 2023</h2>
+        <button onClick={() => window.location.href = '/login'}>Comenzar</button>
+      </div>
     </div>
   );
 };

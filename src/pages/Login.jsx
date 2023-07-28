@@ -16,6 +16,7 @@ const Login = () => {
 
   return (
     <div className="login-container">
+      <div className="login-image"></div>
       <div className="login-form">
         <h1>FORMULARIO DE ADMISIÓN PARA DOCENTES</h1>
         <label>Email</label>
@@ -23,7 +24,7 @@ const Login = () => {
         <label>Contraseña</label>
         <input type="password" />
         <button type="submit" onClick={handleLogin}>
-          LOGIN
+          Login
         </button>
         <p onClick={() => window.location.href = '/registro'}>Ir a Registro</p>
       </div>

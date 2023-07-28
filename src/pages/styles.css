@@ -229,6 +229,17 @@ html, body {
   font-size: 12px;
 }
 
+/* Media query para pantallas de 15.6 pulgadas de laptop */
+@media (max-width: 1366px) {
+  .form-box {
+    padding: 15px; /* Ajustamos el padding */
+    max-width: 350px; /* Reducimos el ancho máximo */
+  }
+
+  .form-box button {
+    font-size: 16px; /* Reducimos el tamaño de fuente */
+  }
+}
 /* Plataforma.css */
 
 .plataforma-container {

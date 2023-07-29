@@ -3,17 +3,24 @@ import './styles.css';
 
 const Formulario = () => {
   return (
-    <div className="form-container"> {/* Cambio del nombre de la clase */}
-      <div className="form-box"> {/* Cambio del nombre de la clase */}
+    <div className="form-container">
+      <div className="form-box">
         <h1>FORMULARIO DE ADMISIÓN PARA DOCENTES</h1>
-        <label>Nombres Completos</label>
-        <input type="text" placeholder="NOMBRE1  NOMBRE2  APELLIDO1  APELLIDO2" />
-
-        <label>Tipo de identificación</label>
-        <select>
-          <option value="cedula">Cédula</option>
-          <option value="pasaporte">Pasaporte</option>
-        </select>
+        <div className="form-row">
+          <div className="form-column">
+            <label>Nombres Completos</label>
+            <input type="text" placeholder="NOMBRE1  NOMBRE2  APELLIDO1  APELLIDO2" />
+          </div>
+          <div className="form-column">
+            <div className="cedula">
+            <label>Tipo de identificación</label>
+            <select>
+              <option value="cedula">Cédula</option>
+              <option value="pasaporte">Pasaporte</option>
+            </select>
+            </div>
+          </div>
+        </div>
 
         <label>Número de identificación</label>
         <input type="text" placeholder="1104520281" />

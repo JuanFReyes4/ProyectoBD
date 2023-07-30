@@ -5,6 +5,8 @@ import Registro from './pages/Registro';
 import Login from './pages/Login';
 import Formulario from './pages/Formulario';
 import Plataforma from './pages/Plataforma';
+import Recursoshumanos from './pages/Recursoshumanos';
+
 import Postulante from './pages/Postulante';
 import Proceso from './pages/Proceso';
 
@@ -17,6 +19,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/formulario" element={<Formulario />} />
           <Route path="/plataforma" element={<Plataforma />} />
+          <Route path="/recursoshumanos" element={<Recursoshumanos />} />
           <Route path="/postulante" element={<Postulante />} />
           <Route path="/proceso" element={<Proceso />} />
         </Routes>
